@@ -5,6 +5,7 @@ function Home() {
     <>
         <div>Home</div>
         <img src={marjaysThumb} />
+        <span>we are here</span>
 
     </>
     
