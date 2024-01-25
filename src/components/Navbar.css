@@ -1,0 +1,13 @@
+.classy {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.whitey {
+    color: #fff;
+}
+
+.redd {
+    color: #f52b2b;
+}
