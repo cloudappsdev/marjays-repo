@@ -1,4 +1,3 @@
-import React from 'react';
 
 const contactContainer = {
   display: 'flex',
@@ -12,10 +11,6 @@ const bioContainer = {
   marginLeft: 'auto',
   marginRight: 'auto',
 };
-
-const tal = { TextAlignProperty: "left" };
-const tleft = { textAlign: "left" as const };
-const talx = { font: "arial" };
 
 function Bios() {
   return (

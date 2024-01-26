@@ -1,5 +1,5 @@
 
-import { Routes, Router, Route, BrowserRouter, Outlet, Link } from 'react-router-dom';
+import { Routes, Route, BrowserRouter } from 'react-router-dom';
 import Home from './components/Home';
 import './App.css';
 import Bios from './components/Bios';
