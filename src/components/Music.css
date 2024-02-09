@@ -1,0 +1,32 @@
+.big-dv {
+    width: 95%;
+    margin: 0 auto;
+}
+
+.bordered-display {
+    min-height: 600px;
+    width: 90%;
+    margin: 0 auto;
+    background-color: #fff;
+    color: #333;
+}
+
+.double-bord {
+    width: 95%;
+    min-height: 500px;
+    border: 4px double #4E342E;
+    margin: 0 auto 12px;
+    padding-bottom: 12px;
+    border-radius: 18px 18px 18px 18px;
+}
+
+.fancy-font {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    font-weight: 900;
+    padding-top: 25px;
+}
+
+.hz-cent {
+    margin: 0 auto;
+}

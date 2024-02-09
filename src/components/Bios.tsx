@@ -30,7 +30,8 @@ function Bios() {
         </div>
         <div>
           <br/>
-          <div style={{fontSize: "26px"}} >~ Band Bio ~</div>
+          <br/>
+          <div style={{fontSize: "42px"}} >~ Band Bio ~</div>
           <div style={bioContainer}>
             <p>
               Veteran players RJ Kattke on keys and Mark Sramek on guitar blend their voices, musicianship, creativity and tradition to bring audiences the very best in live music entertainment.

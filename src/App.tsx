@@ -4,11 +4,12 @@ import Home from './components/Home';
 import './App.css';
 import Bios from './components/Bios';
 import Navbar from './components/Navbar';
-import Songlist from './components/Songlist';
 import Shows from './components/Shows';
 import Samplers from './components/Samplers';
 import Videos from './components/Videos';
 import Layout from './components/Layout';
+import Photos from './components/Photos';
+import Music from './components/Music';
 
 
 
@@ -24,7 +25,8 @@ function App() {
               <Route path="home" element={<Home />} />
               <Route path="bios" element={<Bios />} />
               <Route path="shows" element={<Shows />} />
-              <Route path="songlist" element={<Songlist />} />
+              <Route path="photos" element={<Photos />} />
+              <Route path="music" element={<Music />} />
               <Route path="samplers" element={<Samplers />} />
               <Route path="videos" element={<Videos />} />
             </Route>

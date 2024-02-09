@@ -4,7 +4,7 @@ function Home() {
   return (
     <>
         <h1>The MarJays Music</h1>
-        <h2>From Duo + Percussion, up to Full Band for line-up</h2>
+        <h2>The MarJays and Friends perform for you<br/>From Duo + Percussion, up to Full Band for line-up</h2>
         <br/>
         <img src={marjaysThumb} />
         
