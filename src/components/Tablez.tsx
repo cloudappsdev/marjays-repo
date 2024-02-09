@@ -1,4 +1,4 @@
-export default function Tablez({theadData, tbodyData, custHdrLabels}) {
+export default function Tablez({theadData:any, tbodyData:any, custHdrLabels:any}) {
     return (
       <table style={{'margin': '0 auto'}}>
           <thead>
