@@ -11,7 +11,7 @@ export default function Tablez({theadData, tbodyData, custHdrLabels}) {
           <tbody>
               {tbodyData.map((row, index) => {
                   return <tr key={index}>
-                      {theadData.map((key, index) => {
+                      {theadData.map((key) => {
                            return <td key={row[key]}>{row[key]}</td>
                       })}
                 </tr>;
