@@ -32,5 +32,4 @@ export const songArtist = [
 { song:'WATCHING THE RIVER FLOW', by:'Bob Dylan' },
 { song:'WHAT A WONDERFUL WORLD', by:'Louis Armstrong' },
 { song:'YELLOW MOON', by:'Neville Brothers' },
-
-]
+];

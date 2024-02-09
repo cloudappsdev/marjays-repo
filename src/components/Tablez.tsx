@@ -1,9 +1,9 @@
-export default function Tablez({theadData, tbodyData}) {
+export default function Tablez({theadData, tbodyData, custHdrLabels}) {
     return (
       <table style={{'margin': '0 auto'}}>
           <thead>
              <tr>
-              {theadData.map(heading => {
+              {custHdrLabels.map(heading => {
                 return <th key={heading}>{heading}</th>
               })}
             </tr>
