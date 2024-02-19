@@ -14,7 +14,13 @@
 
 .anchor-wrapper {
     width: 100%;
+    padding: 8px;
+    border-right: 3px solid #E0E0E0;
 }
+
+.anchor-wrapper:last-of-type {
+    border-right: none;
+  }
 
 .nav-anchor {
     height: 62px;
