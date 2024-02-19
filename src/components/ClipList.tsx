@@ -1,6 +1,7 @@
 import "./ClipList.css";
 
 const sortIt = (arr: number[]): number[] => {
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
   return arr.sort((a, b) => 0.5 - Math.random());
 };
 
