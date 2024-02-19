@@ -78,12 +78,8 @@ function Shows() {
           {showHistoryDat.map((row, index) => {
             return (
               <tr key={index}>
-                {Object.entries(row).map(([k, v], ndx: number) => {
-                  return (
-                    <td key={ndx} ref={k}>
-                      {v}
-                    </td>
-                  );
+                {Object.entries(row).map((v, ndx: number) => {
+                  return <td key={ndx}>{v}</td>;
                 })}
               </tr>
             );
