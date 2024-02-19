@@ -3,7 +3,6 @@ import ClipList from "./ClipList";
 import "./ClipSetInfo.css";
 
 function ClipSetInfo(props: { smpl: string; clipInfo: ClipData[] }) {
-  console.log("my-p", props);
   const { smpl, clipInfo } = props;
 
   const [displayType, setDisplayType] = useState(0);

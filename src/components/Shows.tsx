@@ -1,4 +1,5 @@
 import "./Shows.css";
+import WccWrap from "./WccWrap";
 interface showHistory {
   venue: string;
   town: string;
@@ -87,6 +88,9 @@ function Shows() {
         </tbody>
       </table>
       <div>* - indicates informal, impromtu appearance or open-mic</div>
+      <br />
+      <br />
+      <WccWrap />
     </>
   );
 }

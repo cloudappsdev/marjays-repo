@@ -18,29 +18,28 @@ const ghfSmpl2 =
 function Videos() {
   return (
     <>
-      <div>my-header</div>
       <div style={{ marginBottom: "8px" }}>
         Our inept "set-it and forget-it" videographer, didn't always capture the
-        whole stage or players, but we hope you enjoy the Music while you are
-        here!
+        whole stage or al players, <br />
+        but we hope you enjoy the Music while you are here!
       </div>
       <Tabs>
         <TabList style={{ width: "50%", margin: "0 auto" }}>
-          <Tab style={{ width: "45%" }}>Acoustic</Tab>
-          <Tab style={{ width: "45%" }}>Full-Band</Tab>
+          <Tab style={{ width: "30%" }}>Acoustic</Tab>
+          <Tab style={{ width: "30%" }}>Full-Band</Tab>
         </TabList>
 
         <TabPanel>
           <br />
           <Tabs className="p-color-active-underline">
             <TabList style={{ width: "50%", margin: "0 auto" }}>
-              <Tab style={{ width: "45%" }}>Set 1</Tab>
-              <Tab style={{ width: "45%" }}>Set 2</Tab>
+              <Tab style={{ width: "30%" }}>Set 1</Tab>
+              <Tab style={{ width: "30%" }}>Set 2</Tab>
             </TabList>
 
             <TabPanel>
               <iframe
-                style={{ marginTop: "6px" }}
+                style={{ marginTop: "8px" }}
                 width="987"
                 height="555"
                 src="https://www.youtube.com/embed/80m6ENmR45k"
@@ -52,7 +51,7 @@ function Videos() {
             </TabPanel>
             <TabPanel>
               <iframe
-                style={{ marginTop: "6px" }}
+                style={{ marginTop: "8px" }}
                 width="987"
                 height="555"
                 src="https://www.youtube.com/embed/G60jnMDTBLI"
@@ -68,8 +67,8 @@ function Videos() {
           <br />
           <Tabs className="p-color-active-underline">
             <TabList style={{ width: "50%", margin: "0 auto" }}>
-              <Tab style={{ width: "45%" }}>Set 1x</Tab>
-              <Tab style={{ width: "45%" }}>Set 2</Tab>
+              <Tab style={{ width: "30%" }}>Set 1x</Tab>
+              <Tab style={{ width: "30%" }}>Set 2</Tab>
             </TabList>
 
             <TabPanel>
