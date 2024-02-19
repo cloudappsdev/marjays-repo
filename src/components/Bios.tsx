@@ -5,7 +5,7 @@ const contactContainer = {
 };
 
 const bioContainer = {
-  width: "800px",
+  width: "80%",
   textAlign: "left" as const,
   marginLeft: "auto",
   marginRight: "auto",
@@ -30,17 +30,21 @@ function Bios() {
             <span style={{ fontWeight: "600" }}>RJ Kattke</span>, Piano : Organ
             : Keyboards : Vocals
             <br />
-            Cell: (312) 909-9332
+            phone: (312) 909-9332
             <br />
             email: sw4inet@hotmail.com
+            <br />
+            facebook: RJ Kattke
           </div>
           <div style={{ display: "inline-block" }}>
             <span style={{ fontWeight: "600" }}>Mark Sramek</span>, Guitar,
             Harp, Vocals
             <br />
-            Cell: (708) 203-7258
+            phone: (708) 203-7258
             <br />
             email: musikunites@gmail.com
+            <br />
+            facebook: Mark Sramek
           </div>
         </div>
         <div>
