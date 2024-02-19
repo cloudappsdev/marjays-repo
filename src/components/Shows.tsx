@@ -79,7 +79,11 @@ function Shows() {
             return (
               <tr key={index}>
                 {Object.entries(row).map(([k, v], ndx: number) => {
-                  return <td key={ndx}>{v}</td>;
+                  return (
+                    <td key={ndx} ref={k}>
+                      {v}
+                    </td>
+                  );
                 })}
               </tr>
             );

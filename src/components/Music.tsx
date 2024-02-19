@@ -7,10 +7,6 @@ import Tablez from "./Tablez.tsx";
 
 const getKeyz = () => ["Song", "Artist"];
 
-const getMUOHeadings = () => {
-  return Object.keys(songArtist[0]);
-};
-
 function Music() {
   return (
     <div className="big-dv">
@@ -24,11 +20,7 @@ function Music() {
         <div className="fancy-font">The MarJay's Sample Song List</div>
         <div className="double-bord">
           <div className="hz-cent">
-            <Tablez
-              theadData={getMUOHeadings()}
-              tbodyData={songArtist}
-              custHdrLabels={getKeyz()}
-            />
+            <Tablez tbodyData={songArtist} custHdrLabels={getKeyz()} />
           </div>
         </div>
       </div>

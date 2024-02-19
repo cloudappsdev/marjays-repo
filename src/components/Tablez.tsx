@@ -1,13 +1,13 @@
 import { SongListDat } from "./SongListDat";
 
 interface Props {
-  theadData: string[];
+  theadData?: string[];
   tbodyData: SongListDat[];
   custHdrLabels: string[];
 }
 
 export default function Tablez(props: Props) {
-  const { theadData, tbodyData, custHdrLabels } = props;
+  const { tbodyData, custHdrLabels } = props;
 
   return (
     <table style={{ margin: "0 auto" }}>
@@ -23,7 +23,11 @@ export default function Tablez(props: Props) {
           return (
             <tr key={index}>
               {Object.entries(row).map(([k, v], ndx: number) => {
-                return <td key={ndx}>{v}</td>;
+                return (
+                  <td key={ndx} ref={k}>
+                    {v}
+                  </td>
+                );
               })}
             </tr>
           );
