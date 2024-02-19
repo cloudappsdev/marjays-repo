@@ -6,7 +6,7 @@ function ClipSetInfo(props: { smpl: string; clipInfo: ClipData[] }) {
   console.log("my-p", props);
   const { smpl, clipInfo } = props;
 
-  const [displayType, setDisplayType] = useState(1);
+  const [displayType, setDisplayType] = useState(0);
 
   // console.log('data', clipData);
   return (

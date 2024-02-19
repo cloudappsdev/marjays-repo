@@ -7,6 +7,6 @@
     border: 1px solid #F4D03F;
 }
 
-.cmg .react-tabs__tab:focus:after {
+.p-color-active-underline .react-tabs__tab:focus:after {
     background-color: #BA68C8;
 }

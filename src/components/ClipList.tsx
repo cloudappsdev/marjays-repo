@@ -1,27 +1,28 @@
 import "./ClipList.css";
 
-const sortIt = (arr: number[]): number[] => {
-  // eslint-disable-next-line @typescript-eslint/no-unused-vars
-  return arr.sort((a, b) => 0.5 - Math.random());
+const fyRand = (numArr: number[]) => {
+  for (let i = numArr.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    const temp = numArr[i];
+    numArr[i] = numArr[j];
+    numArr[j] = temp;
+  }
 };
 
 const getRandomlyOrderedPlayList = (cInfo: ClipData[]) => {
-  console.log("in ClipList getROP: cInfo: ", cInfo);
+  // const arrRS: number[] = fyRand(cInfo.map((x) => x.index));
+  // const arrRS: number[] = sortIt(cInfo.map((x) => x.index));  // 'a' is declared but its value is never read.
+  // sortIt  :: return arr.sort((a, b) => 0.5 - Math.random());
 
-  console.log(
-    "map.out",
-    cInfo.map((x) => x.index)
-  );
-
-  const arrRS: number[] = sortIt(cInfo.map((x) => x.index));
+  const ndxNum: number[] = cInfo.map((x) => x.index);
+  fyRand(ndxNum);
 
   const finalClipInfo: ClipData[] = [];
 
-  arrRS.forEach((x) => {
+  ndxNum.forEach((x) => {
     finalClipInfo.push(cInfo.filter((entity) => entity.index == x)[0]);
   });
 
-  console.log("typeof finalClipInfo: ", typeof finalClipInfo);
   return finalClipInfo;
 };
 
