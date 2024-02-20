@@ -13,18 +13,30 @@
   },
   {
     "index": 3,
+    "label": "Hand-Jive",
+    "song": "Hand Jive",
+    "ytifm": "<iframe width=\"938\" height=\"528\" src=\"https://www.youtube.com/embed/uYBFhEP7DWE\" title=\"Hand Jive\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>"
+  },
+  {
+    "index": 4,
     "label": "Brown-Eyed-Women",
     "song": "Brown Eyed Women",
     "ytifm": "<iframe width=\"987\" height=\"555\" src=\"https://www.youtube.com/embed/lpUXsuzSddY?list=PLn2JBuvL-MAvLvI2pWfx9om_KlEQ1L5G4\" title=\"Brown Eyed Women\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>"
   },
   {
-    "index": 4,
+    "index": 5,
+    "label": "Some-Kinda-Wonderful",
+    "song": "Some Kinda Wonderful",
+    "ytifm": "<iframe width=\"938\" height=\"528\" src=\"https://www.youtube.com/embed/T93jGXnyoAM\" title=\"Some Kinda Wonderful\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>"
+  },
+  {
+    "index": 6,
     "label": "The-Race-is-On",
     "song": "The Race is On",
     "ytifm": "<iframe width=\"987\" height=\"555\" src=\"https://www.youtube.com/embed/iHKX_8A73M0?list=PLn2JBuvL-MAvLvI2pWfx9om_KlEQ1L5G4\" title=\"Race Is On\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>"
   },
   {
-    "index": 5,
+    "index": 7,
     "label": "I-Know-a-Little",
     "song": "I Know a Little",
     "ytifm": "<iframe width=\"987\" height=\"555\" src=\"https://www.youtube.com/embed/NYcI52hME3c?list=PLn2JBuvL-MAvLvI2pWfx9om_KlEQ1L5G4\" title=\"I Know A Little\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>"
