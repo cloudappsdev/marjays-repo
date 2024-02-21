@@ -42,7 +42,7 @@ function WccWrap() {
         cloudWordsMetro.pop();
       }
       setAddRmv(!addRmv);
-    }, 3 * 1000);
+    }, 2 * 1000);
     return () => clearInterval(interval);
   }, [addRmv]);
 

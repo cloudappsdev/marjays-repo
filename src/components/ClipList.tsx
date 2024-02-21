@@ -1,3 +1,4 @@
+import { ClipData } from "./ClipData";
 import "./ClipList.css";
 
 const fyRand = (numArr: number[]) => {

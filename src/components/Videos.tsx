@@ -19,13 +19,13 @@ function Videos() {
   return (
     <>
       <div style={{ marginBottom: "8px" }}>
-        Our inept "set-it and forget-it" videographer, didn't always capture the
-        whole stage or al players, <br />
-        but we hope you enjoy the Music while you are here!
+        Our "set-it and forget-it" videographer, didn't always capture the whole
+        stage or all players, <br />
+        (that would be me) but we hope you enjoy the Music while you are here!
       </div>
       <Tabs>
         <TabList style={{ width: "50%", margin: "0 auto" }}>
-          <Tab style={{ width: "30%" }}>Acoustic</Tab>
+          <Tab style={{ width: "30%" }}>Acoustic 3pc</Tab>
           <Tab style={{ width: "30%" }}>Full-Band</Tab>
         </TabList>
 

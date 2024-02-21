@@ -49,7 +49,11 @@ const showHistoryDat: showHistory[] = [
   },
 ];
 
-const custHdrLabels: string[] = ["Venue", "Location", "Type"];
+const custHdrLabels: string[] = [
+  "Recent Shows / Appearances",
+  "Location",
+  "Type",
+];
 
 function Shows() {
   return (
@@ -57,16 +61,17 @@ function Shows() {
       <h2>Shows</h2>
       <p>
         <div>
-          After a brief hiatus for the winter, we will be getting out playing -
-          actively booking and playing events as they come up
+          We will be getting out playing - actively booking and playing events
+          as they come up
         </div>
         <div>
-          As you can see below - there are many areas - venues, we would
-          consider, so Help us Schedule something! We hope to see you soon
+          Note: our List and graphic at the bottom of this page - there are many
+          areas - venues, we play at ! <br />
+          We hope to see you soon
         </div>
       </p>
       <br />
-      <br />
+      <h3>Past Shows</h3>
       <table id="showHist" style={{ margin: "0 auto" }}>
         <thead>
           <tr>

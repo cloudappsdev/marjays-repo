@@ -1,6 +1,7 @@
 import { useState } from "react";
 import ClipList from "./ClipList";
 import "./ClipSetInfo.css";
+import { ClipData } from "./ClipData";
 
 function ClipSetInfo(props: { smpl: string; clipInfo: ClipData[] }) {
   const { smpl, clipInfo } = props;

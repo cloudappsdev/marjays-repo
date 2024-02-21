@@ -1,6 +1,6 @@
-type ClipData = {
-    index: number;
-    label: string;
-    song: string;
-    ytifm: string;
+export type ClipData = {
+  index: number;
+  label: string;
+  song: string;
+  ytifm: string;
 };

@@ -10,7 +10,7 @@ function Photos() {
       <div>Photos</div>
       <iframe
         style={styleDim}
-        src="https://mysrv.info/MarJays/OsTap/TheMarJays_Chicago.html"
+        src="https://mysrv.info/MarJays/Photos/TMJM_Photos_fb.html"
       />
     </>
   );
