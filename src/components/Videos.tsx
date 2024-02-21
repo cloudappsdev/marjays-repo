@@ -5,6 +5,7 @@ import "./Videos.css";
 import ghfSet1 from "./galway1.json";
 import ghfSet2 from "./galway2.json";
 import ClipSetInfo from "./ClipSetInfo";
+import { ClipData } from "./ClipData";
 
 const ghfxSet1: ClipData[] = ghfSet1;
 const ghfxSet2: ClipData[] = ghfSet2;
