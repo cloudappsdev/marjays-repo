@@ -60,18 +60,14 @@ function Shows() {
     <>
       <h2>Shows</h2>
       <p>
+        <div>We are actively booking and playing events as they come up</div>
         <div>
-          We will be getting out playing - actively booking and playing events
-          as they come up
-        </div>
-        <div>
-          Note: our List and graphic at the bottom of this page - there are many
-          areas - venues, we play at ! <br />
+          We are ready to add to Our List and there are many areas and venues,
+          we play at !<br />
           We hope to see you soon
         </div>
       </p>
       <br />
-      <h3>Past Shows</h3>
       <table id="showHist" style={{ margin: "0 auto" }}>
         <thead>
           <tr>
