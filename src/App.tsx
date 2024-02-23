@@ -1,10 +1,8 @@
-import { useEffect } from "react";
-import { Routes, Route, BrowserRouter, useLocation } from "react-router-dom";
+import { Routes, Route, BrowserRouter } from "react-router-dom";
 import Home from "./components/Home";
 import "./App.css";
 import Bios from "./components/Bios";
 import Navbar from "./components/Navbar";
-import ReactGA from "react-ga";
 import Shows from "./components/Shows";
 import Samplers from "./components/Samplers";
 import Videos from "./components/Videos";
@@ -12,14 +10,7 @@ import Layout from "./components/Layout";
 import Photos from "./components/Photos";
 import Music from "./components/Music";
 
-ReactGA.initialize("G-8XS78J02W3");
-
 function App() {
-  const location = useLocation();
-  useEffect(() => {
-    ReactGA.pageview(location.pathname + location.search);
-  }, [location]);
-
   return (
     <>
       <BrowserRouter>
