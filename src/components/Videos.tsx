@@ -11,10 +11,10 @@ const ghfxSet1: ClipData[] = ghfSet1;
 const ghfxSet2: ClipData[] = ghfSet2;
 
 const ghfSmpl1 =
-  '<iframe width="987" height="555" src="https://www.youtube.com/embed/5J9kETV83kw" title="The MarJays, Set1 music for Galway Farms" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>';
+  '<iframe width="100%" height="555" src="https://www.youtube.com/embed/5J9kETV83kw" title="The MarJays, Set1 music for Galway Farms" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>';
 
 const ghfSmpl2 =
-  '<iframe width="987" height="555" src="https://www.youtube.com/embed/AufcjqNJBZk" title="The MarJays, full-band, Set2 music for Galway Farms" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe';
+  '<iframe width="100%" height="555" src="https://www.youtube.com/embed/AufcjqNJBZk" title="The MarJays, full-band, Set2 music for Galway Farms" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe';
 
 function Videos() {
   return (
