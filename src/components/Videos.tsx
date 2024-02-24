@@ -41,11 +41,10 @@ function Videos() {
             <TabPanel>
               <iframe
                 style={{ marginTop: "8px" }}
-                width="987"
+                width="100%"
                 height="555"
                 src="https://www.youtube.com/embed/80m6ENmR45k"
                 title="Mural Uno Mix Sampler"
-                frameBorder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 allowFullScreen
               ></iframe>
@@ -53,11 +52,10 @@ function Videos() {
             <TabPanel>
               <iframe
                 style={{ marginTop: "8px" }}
-                width="987"
+                width="100%"
                 height="555"
                 src="https://www.youtube.com/embed/G60jnMDTBLI"
                 title="Mix2 of Mural Art Fest, The MarJays"
-                frameBorder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 allowFullScreen
               ></iframe>
