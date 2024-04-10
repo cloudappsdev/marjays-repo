@@ -57,7 +57,10 @@ const showsDat: showDetails[] = [
   },
   {
     bformat: "",
-    link: "",
+    link: {
+      text: "",
+      link: "",
+    },
     town: "",
     venue: "",
     date: "",
