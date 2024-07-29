@@ -23,7 +23,62 @@ interface showDetails {
 
 const showsDat: showDetails[] = [
   {
-    bformat: "MarJays - Full Band 5pc",
+    bformat: "MarJays - Full Band 4pc",
+    link: {
+      text: "Fat Daddyz Facebook link",
+      link: "https://www.facebook.com/p/Fat-Daddyz-Summit-IL-100085706312936/",
+    },
+    town: "Summit",
+    venue: "Fat Daddyz",
+    date: "Sun, Aug-04",
+    time: "3pm-6pm",
+  },
+  {
+    bformat: "MarJays - Full Band 4pc",
+    link: {
+      text: "The MarJays Music, Facebook Event",
+      link: "https://www.facebook.com/events/472513798919924",
+    },
+    town: "Summit",
+    venue: "Fat Daddyz",
+    date: "Sun, Aug-04",
+    time: "3pm-6pm",
+  },
+  {
+    bformat: "The MarJays, 3pc",
+    link: {
+      text: "Golden Hour link - Epiphany",
+      link: "https://epiphanychi.com/events/golden-hour-featuring-the-marjays-music/",
+    },
+    town: "Chicago",
+    venue: "Epiphany Center for the Arts - Golden Hour",
+    date: "September 04",
+    time: "5pm-8pm",
+  },
+  {
+    bformat: "The MarJays, 3pc",
+    link: {
+      text: "Golden Hour link - Eventbrite",
+      link: "https://www.eventbrite.com/e/golden-hour-featuring-the-marjays-music-tickets-956010762927?aff=oddtdtcreator",
+    },
+    town: "Chicago",
+    venue: "Epiphany Center for the Arts - Golden Hour",
+    date: "September 04",
+    time: "5pm-8pm",
+  },
+  {
+    bformat: "The MarJays, 3pc",
+    link: {
+      text: "Golden Hour link - Facebook",
+      link: "https://www.facebook.com/events/2274247199590208/?rdid=FZNnTxDEmgLMSoIV&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2Fcdym8NEppTRW7QX4%2F",
+    },
+    town: "Chicago",
+    venue: "Epiphany Center for the Arts - Golden Hour",
+    date: "September 04",
+    time: "5pm-8pm",
+  },
+  {
+    bformat: "(past Show) MarJays - Full Band 5pc",
     link: {
       text: "Park District - Outdoors",
       link: "https://www.facebook.com/BrookfieldRec/",
@@ -34,7 +89,7 @@ const showsDat: showDetails[] = [
     time: "7pm",
   },
   {
-    bformat: "MarJays - Full Band 5pc",
+    bformat: "(past Show) MarJays - Full Band 5pc",
     link: {
       text: "Real Stadium",
       link: "https://www.facebook.com/stadiumclubatthemax/",
@@ -43,17 +98,6 @@ const showsDat: showDetails[] = [
     venue: "The Stadium Club",
     date: "Sat, July-20",
     time: "7pm",
-  },
-  {
-    bformat: "MarJays - Full Band 4pc",
-    link: {
-      text: "details TBA",
-      link: "https://www.facebook.com/p/Fat-Daddyz-Summit-IL-100085706312936/",
-    },
-    town: "Summit",
-    venue: "Fat Daddyz",
-    date: "Sun, Aug-04",
-    time: "3pm",
   },
   {
     bformat: "",
