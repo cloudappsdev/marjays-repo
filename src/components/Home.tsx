@@ -1,6 +1,12 @@
 import "./Home.css";
 import marjaysThumb from "../assets/images/MarJays_D0419u_thumb.jpeg";
 
+const contactContainer = {
+  display: "flex",
+  justifyContent: "space-evenly",
+  textAlign: "left" as const,
+};
+
 function Home() {
   return (
     <>
@@ -30,14 +36,44 @@ function Home() {
         <div>
           <iframe
             width="100%"
-            height="555"
-            src="ttps://youtu.be/KFgCs-73Tbo"
+            height="597"
+            src="https://www.youtube.com/embed/KFgCs-73Tbo"
+            title="Rock Me Baby"
+            frameBorder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            allowfullscreen="false"
+            allowFullScreen=""
           ></iframe>
         </div>
         <br />
         <h2 className="subh">Contact</h2>
+        <br />
+        <div>
+          <div style={contactContainer}>
+            <div style={{ display: "inline-block" }}>
+              <span style={{ fontWeight: "600" }}>RJ Kattke</span>, Piano :
+              Organ : Keyboards : Vocals
+              <br />
+              phone: (312) 909-9332
+              <br />
+              email: sw4inet@hotmail.com
+              <br />
+              facebook: RJ Kattke
+            </div>
+            <div style={{ display: "inline-block" }}>
+              <span style={{ fontWeight: "600" }}>Mark Sramek</span>, Guitar,
+              Harp, Vocals
+              <br />
+              phone: (708) 203-7258
+              <br />
+              email: musikunites@gmail.com
+              <br />
+              facebook: Mark Sramek
+            </div>
+          </div>
+        </div>
+        <br />
+        <br />
+        ok
         <br />
         <br />
         <br />
