@@ -1,0 +1,38 @@
+.bord {
+    border: 3px solid blue;
+}
+
+.subh {
+    font-size: 32px;
+    text-wrap: nowrap;
+}
+
+.verb {
+    margin: 0 29px;
+}
+
+@media (max-width: 768px) {
+    .subh {
+        font-size: 28px;
+        text-wrap: nowrap;
+    }
+
+    .verb {
+        margin: 0 12px;
+    }
+    
+    
+}
+
+@media (max-width: 480px) {
+    .subh {
+        font-size: 22px;
+        text-wrap: nowrap;
+    }
+
+    .verb {
+        margin: 0 4px;
+    }
+    
+    
+}

@@ -11,25 +11,7 @@ import Photos from "./components/Photos";
 import Music from "./components/Music";
 
 function App() {
-  return (
-    <>
-      <BrowserRouter>
-        <Navbar />
-        <Routes>
-          <Route element={<Layout />}>
-            <Route path="/" element={<Home />} />
-            <Route path="home" element={<Home />} />
-            <Route path="bios" element={<Bios />} />
-            <Route path="shows" element={<Shows />} />
-            <Route path="photos" element={<Photos />} />
-            <Route path="music" element={<Music />} />
-            <Route path="samplers" element={<Samplers />} />
-            <Route path="videos" element={<Videos />} />
-          </Route>
-        </Routes>
-      </BrowserRouter>
-    </>
-  );
+  return <Home></Home>;
 }
 
 export default App;
