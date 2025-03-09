@@ -1,12 +1,6 @@
 import "./Home.css";
 import marjaysThumb from "../assets/images/MarJays_D0419u_thumb.jpeg";
 
-const contactContainer = {
-  display: "flex",
-  justifyContent: "space-evenly",
-  textAlign: "left" as const,
-};
-
 function Home() {
   return (
     <>
@@ -24,7 +18,7 @@ function Home() {
           your needs!
         </p>
         <br />
-        <p className="verb">
+        <p className="vmore">
           The MarJays love playing classic roots, rock, country, blues and
           reggae! Clubs, festivals, breweries, wineries, parties and events all
           over Chicagoland - The MarJays get the house grooving! Give us a shout
@@ -38,7 +32,7 @@ function Home() {
             width="100%"
             height="597"
             src="https://www.youtube.com/embed/KFgCs-73Tbo"
-            title="Rock Me Baby"
+            title="The MarJays Sampler Video"
             frameBorder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             allowFullScreen=""
@@ -48,42 +42,41 @@ function Home() {
         <h2 className="subh">Contact</h2>
         <br />
         <div>
-          <div style={contactContainer}>
-            <div style={{ display: "inline-block" }}>
-              <span style={{ fontWeight: "600" }}>RJ Kattke</span>, Piano :
-              Organ : Keyboards : Vocals
+          <div className="contactContainer">
+            <div className="contactBlock">
+              <span style={{ fontWeight: "600" }} className="contactInfo">
+                RJ Kattke
+              </span>
+              , Piano : Organ : Keyboards : Vocals
               <br />
-              phone: (312) 909-9332
+              <div className="cdata">
+                <span>phone: (312) 909-9332</span>
+                <br />
+                <span>email: sw4inet@hotmail.com</span>
+                <br />
+                <span>facebook: RJ Kattke</span>
+              </div>
               <br />
-              email: sw4inet@hotmail.com
               <br />
-              facebook: RJ Kattke
             </div>
-            <div style={{ display: "inline-block" }}>
+            <div className="contactBlock">
               <span style={{ fontWeight: "600" }}>Mark Sramek</span>, Guitar,
               Harp, Vocals
               <br />
-              phone: (708) 203-7258
+              <div className="cdata">
+                <span>phone: (708) 203-7258</span>
+                <br />
+                <span>email: musikunites@gmail.com</span>
+                <br />
+                <span>facebook: Mark Sramek</span>
+              </div>
               <br />
-              email: musikunites@gmail.com
               <br />
-              facebook: Mark Sramek
             </div>
           </div>
         </div>
-        <br />
-        <br />
-        ok
-        <br />
-        <br />
-        <br />
-        ok
-        <br />
-        ya
-        <br />
       </div>
     </>
   );
 }
-
 export default Home;

@@ -9,6 +9,50 @@
 
 .verb {
     margin: 0 29px;
+    font-family: 'Acme', sans-serif;
+}
+
+.vmore {
+    margin: 0 29px;
+    font-family: 'Permanent Marker', sans-serif;
+}
+
+.contactContainer {
+    display: "flex";
+    justifyContent: "space-evenly";
+    textAlign: "left" as const;
+
+    @media (max-width: 768px) {
+        display: block
+    }
+
+  }
+
+div.contactContainer > div:first-child {
+    padding-right: 22px;
+}  
+
+div.cdata {
+    text-align: left;
+    margin-left: 18px;
+}
+
+.contactBlock {
+    display: inline-block;
+
+    @media (max-width: 768px) {
+        display: block;
+        text-align: left;
+        margin-left: 42px;
+    }
+
+}
+.contactInfo {
+
+    @media (max-width: 768px) {
+        text-align: left;
+    }
+
 }
 
 @media (max-width: 768px) {
