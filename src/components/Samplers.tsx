@@ -1,7 +1,5 @@
 function Samplers() {
-  return (
-    <div>Samplers</div>
-  )
+  return <div>SamplersX</div>;
 }
 
-export default Samplers
+export default Samplers;
